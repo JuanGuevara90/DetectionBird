@@ -1,0 +1,69 @@
+<!-- Pagina Web -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+    <div class="contariner col-md-6 pt-5 pl-md-5">
+
+            <h1>Reporte de Detección</h1>
+    </div>
+
+    <br>
+
+    <div class="container col-md-auto">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Número</th>
+            <th scope="col">Fecha</th>
+            <th  scope="col">Hora</th>
+            <th scope="col">Image</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+      </table>
+    </div>
+
+   
+    
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAYxWmtcqzOVMGa-osoAVIPZmZpUcwNPVc",
+        authDomain: "visionartificial-e9514.firebaseapp.com",
+        databaseURL: "https://visionartificial-e9514-default-rtdb.firebaseio.com",
+        projectId: "visionartificial-e9514",
+        storageBucket: "visionartificial-e9514.appspot.com",
+        messagingSenderId: "64360777811",
+        appId: "1:64360777811:web:963a367370d4d09dd4dea6",
+        measurementId: "G-HBG0371HDJ"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+  <script src="index.js"></script>
+    
+</body>
+</html>
