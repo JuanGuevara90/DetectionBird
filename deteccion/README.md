@@ -11,7 +11,6 @@
 ### Librerias:
 * Tensor Flow
 * Firebase
-* firebase_admin
 * serial
 
 ### Comandos Jetson Nano
