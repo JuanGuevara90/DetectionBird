@@ -1,8 +1,8 @@
 # Detección de Aves
 
 ### Archivos importantes:
-* Object_detection_webcam.py
-* sendRealDB.py 
+* Object_detection_webcam.py ->Detección de Aves
+* sendRealDB.py  -> Cliente Firebase para insertar datos
 * serviceAccountKey.json  -> Key para acceso a Firebase
 ### Lenguajes usados:
 
