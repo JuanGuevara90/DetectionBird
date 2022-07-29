@@ -1,5 +1,9 @@
 # Página web
 
+### Archivos importantes:
+* index.html -> pagina web para la visualizar la información.
+* index.js -> cliente firebase y manejador de la tabla.
+* index.php -> punto de ejecucion por parte del servidor web de heroku.
 ### Lenguajes usados:
 
 * Html v5 
